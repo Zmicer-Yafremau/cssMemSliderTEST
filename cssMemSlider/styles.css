@@ -3,29 +3,24 @@
     padding:0;
     font-size:10px;
     box-sizing:border-box;
-  font-family: 'Roboto', sans-serif;
- 
-
+    font-family: 'Roboto', sans-serif;
   }
+
   body {
     background-color:black;
     display:flex;
     align-items:center;
     justify-content:center;
     height:100vh;
-    
   }
   
   span{
-      display: block;
-      height: 5rem;
+    display: block;
+    height: 5rem;
     color:white;
     font-size:2rem;
     display: flex;
     justify-content: center;
-    
-  
-  
   }
   
   .circle{
@@ -36,16 +31,16 @@
     border-radius:1rem;
     transition:.4s;
   }
+
   .active{
-      background-color:black;
+    background-color:black;
   }
   
   .wraper{
     width:120rem;
     height:74rem;
-  
     padding:2rem;
-      display:flex;
+    display:flex;
     flex-direction:column;
     align-items:center;
    
@@ -54,135 +49,94 @@
   .memes{
     width:60rem;
     height:90%;
-  border-radius:5%;
-  
+    border-radius:5%;
     transition:.5s;
     background-image:url("./assets/slide0.png");
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     
   }
   .lowbar{
-      width:60rem;
+     width:60rem;
      height:10rem;
      display:flex;
-    align-items:center;
-    justify-content:space-between;
-  
-  
-  
+     align-items:center;
+     justify-content:space-between;
   }
   
   .navigation{
     display:flex;
-  
-  
     width:10rem;
     height:4rem;
-  
-  
   }
-  
 
-  
   .circles{
-   
     height:100%;
     flex-grow:1;
     display:flex;
-   
     justify-content:flex-end;
   
   }
   
   .lowbar_wraper{
     width:25rem;
-  
-  overflow:hidden;
+    overflow:hidden;
   
   }
   
   .lowbar_wraper > div{
-  
     width:100rem;
-  
     display:flex;
     margin-left:0;
     transition:.2s;
-    
   }
   
   .lowbar_wraper div span{
     display:block;
-  width:25rem;
-    
+    width:25rem;
   }
   
   @media ( max-width:57.1rem ) and ( min-width:35.1rem ){
-   
-  
-  
+
     .wraper{
-      
       width:50em;
-  
-     
     }
     
     .memes{
-    width:100%;
-  
-   
-      
-   
+      width:100%;
   }
+
   .lowbar{
       width:100%;
-     display:flex;
-    align-items:center;
-    justify-content:space-between;
-
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
   }
-   
-    
+     
   }
   
   @media ( max-width:35.1rem ) {
-    
-
     
     .wraper{
       height:55%;
     }
     
     .memes{
-  width:26rem;
+        width:26rem;
         background-size:cover;
-   
-   
   }
   .lowbar{
-    margin-top:2rem;
+      margin-top:2rem;
       width:26rem;
-     height:10rem;
-     display:flex;
-    flex-direction:column-reverse;
-    align-items:center;
-  
-
-  
+      height:10rem;
+      display:flex;
+      flex-direction:column-reverse;
+      align-items:center;
   }
    
-    
-    .lowbar_wraper{
+  .lowbar_wraper{
       align-self:flex-start;
     }
   
-    
-  
-    
-  
-   
-    
   }
