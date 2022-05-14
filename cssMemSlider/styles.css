@@ -4,6 +4,7 @@
     font-size:10px;
     box-sizing:border-box;
   font-family: 'Roboto', sans-serif;
+ 
 
   }
   body {
@@ -22,7 +23,7 @@
     font-size:2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
   
   
   }
@@ -64,7 +65,7 @@
   }
   .lowbar{
       width:60rem;
-     height:6rem;
+     height:10rem;
      display:flex;
     align-items:center;
     justify-content:space-between;
@@ -83,16 +84,14 @@
   
   }
   
-  .memes{
-  
-  }
+
   
   .circles{
    
     height:100%;
     flex-grow:1;
     display:flex;
-    align-items:center;
+   
     justify-content:flex-end;
   
   }
@@ -140,20 +139,12 @@
   }
   .lowbar{
       width:100%;
-     height:5rem;
      display:flex;
     align-items:center;
     justify-content:space-between;
-  
-   
-  
-  
+
   }
    
-    
-  
-    
-  
     
   }
   
@@ -172,12 +163,14 @@
    
   }
   .lowbar{
+    margin-top:2rem;
       width:26rem;
-     height:8rem;
+     height:10rem;
      display:flex;
     flex-direction:column-reverse;
     align-items:center;
-    justify-content:space-between;
+  
+
   
   }
    
