@@ -37,7 +37,7 @@
   }
   
   .wraper{
-    width:120rem;
+    width:62rem;
     height:74rem;
     padding:2rem;
     display:flex;
@@ -47,7 +47,7 @@
   
   }
   .memes{
-    width:60rem;
+    width:100%;
     height:90%;
     border-radius:5%;
     transition:.5s;
@@ -58,7 +58,7 @@
     
   }
   .lowbar{
-     width:60rem;
+     width:100%;
      height:10rem;
      display:flex;
      align-items:center;
@@ -119,7 +119,7 @@
   @media ( max-width:35.1rem ) {
     
     .wraper{
-      height:55%;
+      height:60%;
     }
     
     .memes{
