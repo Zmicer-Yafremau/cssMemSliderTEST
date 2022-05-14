@@ -37,7 +37,7 @@
   }
   
   .wraper{
-    width:62rem;
+    width:60rem;
     height:74rem;
     padding:2rem;
     display:flex;
@@ -63,6 +63,7 @@
      display:flex;
      align-items:center;
      justify-content:space-between;
+     transition:.2s;
   }
   
   .navigation{
